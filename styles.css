@@ -70,11 +70,12 @@ header {
 h1 {
     font-family:'Segoe UI';
     font-size: 2.3rem;
-    color: #573021;
-    margin: 3% 6%;
+    color: white;
+    margin: 5% 0%;
     padding: 3%;
-    box-shadow: 4px 0px 7px 3px #57302188 ;
-    border-radius: 1rem;
+
+    background-color: #573021ef;
+    width: 100%;
 }
 
 h3 {
@@ -118,21 +119,21 @@ p {
 }
 
 .imagem {
-    width: 374px;
-    height: 374px;
+    width: 300px;
+    height: 300px;
     margin: 3% 0;;
     padding: 1%;
-    zoom: 60%;
+    transform: scale(0.6);
     transition: 1.5s;
     opacity: 0.8;
+    border-radius: 3rem;
 }
 
 .imagem:hover {
     transition: 1s;
-    margin: 1% 0;
     border-radius: 1rem;
-    zoom: 80%;
     opacity: 1;
+    transform: scale(0.8)
 }
 
 span {
